@@ -1,10 +1,11 @@
 import requests
+from sys import *
 import threading
+from data import unique
 
-url = ''
+url = argv[1]
 
-data = {
-}
+data = unique
 
 
 def do_request():
